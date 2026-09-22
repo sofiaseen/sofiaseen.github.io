@@ -82,7 +82,8 @@ p {
 }
 
 div.container {
-    max-width: 90em;
+    background-color: rgb(254, 254, 254);
+    max-width: 70em;
     margin: auto;
 }
 
@@ -96,5 +97,9 @@ figure {
     display: grid;
     grid-template-columns: 80% 20%;
     margin-bottom: 4em;
+}
+
+body {
+    background-color: rgb(208, 208, 208)
 }
 /*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
